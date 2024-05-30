@@ -7,9 +7,13 @@ main{
   
 }
 
-.mango-container, .jalapeno-container, .chocolate-container, .cheese-container{
+.mango-container,
+.jalapeno-container,
+.chocolate-container,
+.cheese-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background-color: #f7dfc8;
 }
 
 .mango-description .jalapeno-description, .chocolate-description, .cheese-description{
