@@ -14,6 +14,7 @@ main{
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #f7dfc8;
+  padding-bottom: 2rem;
 }
 
 .mango-description .jalapeno-description, .chocolate-description, .cheese-description{
@@ -114,10 +115,11 @@ input{
   justify-content: center;
 }
 
-.cart-container{
+.cart-container {
   display: flex;
   justify-content: flex-end;
   margin-right: 2rem;
+  align-items: center;
 }
 
 .tag-container{
@@ -211,4 +213,11 @@ blockquote i {
 
 img{
   cursor:pointer;
+}
+
+.home {
+  text-decoration: none;
+  color: black;
+  background-color: #dcf0f7;
+  padding: 5px;
 }
